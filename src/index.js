@@ -6,3 +6,5 @@ import './03-module/main';
 import './04-factory/main';
 import './04-factory/main2';
 import './04-factory/main3';
+import './05-singleton/singleton';
+import './05-singleton/main';
