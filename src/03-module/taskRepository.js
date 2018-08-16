@@ -5,6 +5,9 @@ const TaskRepo = function () {
 			return {
 				name: 'new task from db'
 			};
+		},
+		save: function (task) {
+			console.log(`Saving ${task.name} to the db`);
 		}
 	};
 };
