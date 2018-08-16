@@ -1,0 +1,44 @@
+{
+  "name": "ps-practical-design-patterns-in-js",
+  "version": "1.0.0",
+  "description": "Code for design patterns based on the Pluralsight course: Practical Design Patterns in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack",
+    "serve": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/architMahto/ps-practical-design-patterns-in-js.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Design",
+    "Patterns"
+  ],
+  "author": "Archit Mahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/architMahto/ps-practical-design-patterns-in-js/issues"
+  },
+  "homepage": "https://github.com/architMahto/ps-practical-design-patterns-in-js#readme",
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "1.4.0",
+    "css-loader": "0.28.1",
+    "eslint": "^5.3.0",
+    "extract-text-webpack-plugin": "2.0.0",
+    "file-loader": "0.11.1",
+    "image-webpack-loader": "3.3.0",
+    "style-loader": "0.17.0",
+    "url-loader": "0.5.8",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
