@@ -12,6 +12,12 @@ let Task = function (name) {
 	};
 };
 
+console.log('');
+console.log('---------------------------------------');
+console.log('       Constructor Pattern Demo        ');
+console.log('---------------------------------------');
+console.log('');
+
 let task1 = new Task('Create a demo for constructors');
 let task2 = new Task('Create a demo for modules');
 let task3 = new Task('Create a demo for singletons');
