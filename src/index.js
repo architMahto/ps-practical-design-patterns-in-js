@@ -8,3 +8,5 @@ import './04-factory/main2';
 import './04-factory/main3';
 import './05-singleton/singleton';
 import './05-singleton/main';
+import './06-decorator/main';
+import './06-decorator/subObjecting';
