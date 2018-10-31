@@ -6,4 +6,4 @@ const NotificationService = function () {
 	};
 };
 
-export default NotificationService();
+export default NotificationService;

@@ -6,4 +6,4 @@ const AuditingService = function () {
 	};
 };
 
-export default AuditingService();
+export default AuditingService;

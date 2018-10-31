@@ -6,4 +6,4 @@ const LoggingService = function () {
 	};
 };
 
-export default LoggingService();
+export default LoggingService;
