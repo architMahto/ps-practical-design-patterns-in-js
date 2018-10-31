@@ -2,6 +2,7 @@ import Task from './task';
 import AuditingService from './auditingService';
 import LoggingService from '/loggingService';
 import NotificationService from './notificationService';
+import ObserverList from './observerList';
 
 console.log('');
 console.log('---------------------------------------');
